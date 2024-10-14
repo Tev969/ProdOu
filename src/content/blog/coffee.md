@@ -1,10 +1,10 @@
 ---
-title: "Coffee: Aromatic Elixir of Energy and Delight"
+title: "Et pour vous alors ?"
 pubDate: 2023-06-29
-intro: Coffee, with its enticing aroma and invigorating taste, has become an integral part of many people's daily lives.
+intro: Acheter directement chez les producteurs garantit des produits frais, de saison, et de meilleure qualité, souvent à des prix plus avantageux. Cela permet aux consommateurs de connaître l'origine des aliments et de soutenir les pratiques agricoles durables. En plus, l'expérience est plus authentique et renforce le lien avec le terroir local.
 tag: coffee
 author: palmiak
-image: ../../assets/featured-3.jpg
+image: ../../assets/featured-4.jpg
 
 ---
 Coffee, with its enticing aroma and invigorating taste, has become an integral part of many people's daily lives. This caffeinated beverage has a rich history, a global following, and a myriad of health benefits. In this essay, we will explore the fascinating world of coffee and delve into its origins, cultural significance, and the various ways it can be enjoyed.

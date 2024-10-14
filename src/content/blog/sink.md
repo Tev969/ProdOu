@@ -1,7 +1,7 @@
 ---
-title: MD Kitchen Sink
-pubDate: 2023-06-30
-intro: Here at Qode Interactive, we believe typography should be approached with equal focus and care as any other design element. It’s not just that the fonts “carry” the text, they also imbue the design with particular psychological values and convey specific
+title: Les avantages pour les producteurs ?
+pubDate: 2024-10-14
+intro: Consommer directement chez les producteurs favorise des circuits courts, garantissant des produits frais et de saison tout en soutenant l'économie locale. Pour les producteurs, cela assure une juste rémunération et renforce le lien de confiance avec les consommateurs. Ensemble, nous contribuons à une agriculture plus durable et responsable.
 tag: dev
 author: palmiak
 image: ../../assets/featured.jpg
