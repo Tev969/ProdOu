@@ -16,7 +16,7 @@ export async function getStaticPaths({paginate}) {
     return paginate(blogEntries, { pageSize: config.postsPerPage });
 }
 
-const { page } = Astro.props;
+const { page }: { page: { data: Array<{ data: { title: string; intro: string; location: string; image?: string; slug: string; pubDate: Date; }; }>; url: { prev?: string; next?: string; } } } = Astro.props;
 ---
 <Base>
     <section class="container mx-auto max-w-screen-lg px-7 py-10">

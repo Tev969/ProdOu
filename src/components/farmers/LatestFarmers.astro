@@ -1,0 +1,21 @@
+---
+import { getCollection } from "astro:content";
+import Farmer from "./Farmer.astro";
+import config from "../../config.mjs";
+
+const { farmerLimit = config.latestFarmers, skipFarmer = "" } = Astro.props;
+
+const farmers = (await getCollection('farmer', ({ data }) => {
+    return !(data.title === skipFarmer);
+})).sort(
+    (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+).slice(0, farmerLimit);
+---
+<section class="container mx-auto max-w-screen-lg px-7 py-10 mb-10">
+    {
+        farmers.map((farmer, index) => {
+            console.log("Farmer Data:", farmer.data);  // Débogage
+            return <Farmer farmerData={farmer.data} num={index} />;
+        })
+    }
+</section>

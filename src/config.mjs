@@ -3,8 +3,10 @@ export default {
     titleSuffix: " | Pacamara ☕",
     description: "Aromatic brew, pure indulgence, exquisite satisfaction.Default description",
     defaultOgImage: "./defaultog.jpg",
-    latestPosts: 3,
-    postsPerPage: 3,
+    latestPosts: 5,
+    postsPerPage: 10,
+    latestFarmers: 5,
+    farmersPerPage: 10,
     url: "https://pacamara-astro-6y7xr.kinsta.page",
     social: {
         'dribbble': false,

@@ -13,6 +13,8 @@ const blogCollection = defineCollection({
     }),
 });
 
+
+
 const pageCollection = defineCollection({
     type: 'content', // v2.5.0 and later
     schema: ({image}) => z.object({
@@ -32,8 +34,24 @@ const authorCollection = defineCollection({
     }),
 });
 
+const farmerCollection = defineCollection({
+    type: 'content',
+    schema: ({ image }) => z.object({
+        title: z.string(),
+        intro: z.string(),
+        location: z.string(),
+        image: image().optional(),
+        contact: z.string().optional(),
+        pubDate: z.string().or(z.date()), 
+        type: z.string().optional(), 
+        
+    }),
+});
+
+
 export const collections = {
     'blog': blogCollection,
     'author': authorCollection,
     'page': pageCollection,
+    'farmer': farmerCollection, 
 };

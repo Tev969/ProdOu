@@ -17,3 +17,19 @@ export async function get(context) {
         customData: `<language>en-us</language>`,
     });
 }
+
+export async function get(context) {
+    const farmers = await getCollection('farmer');
+    return rss({
+        title: config.title + ' - Agriculteurs',
+        description: 'Flux RSS des agriculteurs',
+        site: config.url,
+        items: farmers.map((farmer) => ({
+            title: farmer.data.title,
+            pubDate: farmer.data.pubDate,
+            description: farmer.data.intro,
+            link: `/farmer/${farmer.slug}/`
+        })),
+        customData: <language>en-us</language>,
+    });
+}
