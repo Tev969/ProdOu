@@ -3,7 +3,7 @@ const { farmerData, num } = Astro.props;
 import { Image } from 'astro:assets';
 import defaultImage from "../../assets/default.jpg"; // Image par défaut
 
-console.log("Farmer Data:", farmerData); // Log pour déboguer
+
 
 // Fallback pour le slug
 const slug = farmerData.slug || 'default-slug';
@@ -22,10 +22,9 @@ const slug = farmerData.slug || 'default-slug';
 ">
     <div class="grid grid-cols-1 lg:grid-cols-[200px_auto] md:grid-cols-[200px_auto] gap-10 items-center">
         <div class="farmer_image">
-            <a href={`/ProdOu/farmer/${slug}`}>  {/* Utilisation de slug avec fallback */}
-               
+            <a href={`/ProdOu/farmer/${slug}`}>
                 <Image 
-                    src={farmerData.data.image ? farmerData.data.image : defaultImage} 
+                    src={farmerData?.data?.image ? farmerData.data.image : defaultImage} 
                     width="750" 
                     alt={`${farmerData.title} Thumbnail`} 
                     class:list={[ 
@@ -38,10 +37,10 @@ const slug = farmerData.slug || 'default-slug';
         <div class="farmer_intro">
             <h2>
                 <a href={`/ProdOu/farmer/${slug}`} class="text-pacamara-dark hover:text-pacamara-accent"> {/* Utilisation de slug avec fallback */}
-                    {farmerData.data.title}
+                    {farmerData?.data?.title}
                 </a>
             </h2>
-            <p>{farmerData.data.intro}</p>
+            <p>{farmerData?.data?.intro}</p>
         </div>
     </div>
     <div class="w-full h-[1px] mt-10 lg:mt-[50px] overflow-hidden gradient-line group-last:hidden"></div>

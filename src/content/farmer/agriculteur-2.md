@@ -5,6 +5,6 @@ location: "Colombie"
 contact: "john@example.com"
 pubDate: "2024-10-15" 
 image: ../../assets/agriculteur-1.jpg
-slug: "jean-dupontelle"
+slug: "jean-duponelle"
 ---
 John Doe est un agriculteur passionné par la culture durable et les pratiques agricoles respectueuses de l'environnement...

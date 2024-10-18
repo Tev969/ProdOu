@@ -19,7 +19,14 @@ entry.data.type = "farmer";
 
 const { Content } = await entry.render();
 ---
+
 <Base PostData={entry}>
+    <a 
+    href="/ProdOu/farmer/" 
+    class="inline-block px-6 py-3 mt-5 mb-10 ml-32 text-pacamara-primary font-semibold bg-pacamara-secondary/20 rounded-lg transition-all duration-300 hover:bg-pacamara-secondary hover:text-white dark:text-white dark:bg-gray-700 dark:hover:bg-gray-600 text-center"
+    >
+    Retour
+    </a>
   <article class="px-7 pt-10 mx-auto w-full">
     <div class="mx-auto
       prose lg:prose-xl prose-headings:font-bold prose-headings:text-pacamara-dark prose-headings:mb-3
@@ -53,6 +60,6 @@ const { Content } = await entry.render();
 
 <div class="pt-10 mb-7 bg-gradient-to-b from-pacamara-dark/[0.05] to-pacamara-dark[0 dark:bg-gradient-to-b dark:from-bg-black/50 to-bg-black/0">
   <h2 class="container mx-auto max-w-screen-lg px-7 text-xl text-pacamara-secondary font-bold mb-7">Voir d'autres agriculteurs :</h2>
-  <LatestFarmers farmerLimit={2} skipFarmer={entry.data.title} />
+  <LatestFarmers farmerLimit=2 skipFarmer={entry.data.title} />
 </div>
 </Base>

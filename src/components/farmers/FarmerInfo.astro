@@ -1,15 +1,24 @@
 ---
 const { farmerData } = Astro.props;
+
 ---
-<div class="farmer-info mt-10 p-4 border rounded-lg bg-gray-100 dark:bg-gray-800">
-    <h2 class="text-lg font-bold text-pacamara-dark dark:text-white">Informations sur l'agriculteur</h2>
-    <div class="flex items-center mt-4">
+
+<div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 mt-10 text-center max-w-2xl mx-auto">
+    <h2 class="text-2xl font-extrabold text-pacamara-dark dark:text-white mb-6">Informations sur l'Agriculteur</h2>
+    <div class="flex flex-col items-center space-y-4">
       
+            <img 
+                src={farmerData.image.src} 
+                alt={farmerData.title} 
+                class="w-24 h-24 rounded-full object-cover shadow-lg mb-4" 
+            />
+       
         <div>
-            <h3 class="text-md font-semibold text-pacamara-dark dark:text-white">{farmerData.title}</h3>
-            <p class="text-sm text-pacamara-primary dark:text-gray-400">{farmerData.intro}</p>
-            <p class="text-sm text-pacamara-accent dark:text-gray-300">{farmerData.contact}</p>
-            <p>{farmerData.location}</p>
+            <h3 class="text-xl font-semibold text-pacamara-dark dark:text-white">{farmerData.title}</h3>
+            <p class="text-base text-pacamara-accent dark:text-gray-300 mt-1">{farmerData.intro}</p>
+            <p class="text-base text-pacamara-accent dark:text-gray-300 mt-1">Numéro : {farmerData.contact}</p>
+            <p class="text-base text-pacamara-accent dark:text-gray-300 mt-1">Adresse :{farmerData.location}</p>
         </div>
     </div>
 </div>
+
