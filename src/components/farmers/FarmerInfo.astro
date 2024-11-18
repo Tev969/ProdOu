@@ -1,10 +1,9 @@
 ---
 const { farmerData } = Astro.props;
-
 ---
 
 <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 mt-10 text-center max-w-2xl mx-auto">
-    <h2 class="text-2xl font-extrabold text-pacamara-dark dark:text-white mb-6">Informations sur l'Agriculteur</h2>
+    <h2 class="text-2xl font-extrabold text-pacamara-dark dark:text-white mb-6">Informations sur {farmerData.title}</h2>
     <div class="flex flex-col items-center space-y-4">
       
             <img 
@@ -14,10 +13,10 @@ const { farmerData } = Astro.props;
             />
        
         <div>
-            <h3 class="text-xl font-semibold text-pacamara-dark dark:text-white">{farmerData.title}</h3>
-            <p class="text-base text-pacamara-accent dark:text-gray-300 mt-1">{farmerData.intro}</p>
-            <p class="text-base text-pacamara-accent dark:text-gray-300 mt-1">Numéro : {farmerData.contact}</p>
-            <p class="text-base text-pacamara-accent dark:text-gray-300 mt-1">Adresse :{farmerData.location}</p>
+            <h3 class="text-xl font-semibold text-pacamara-dark dark:text-white pt-2">{farmerData.title}</h3>
+            <p class="text-lg text-pacamara-accent dark:text-gray-300 mt-1 pt-2">{farmerData.intro}</p>
+            <a href="tel:0667863727"><p class="text-lg text-pacamara-accent dark:text-gray-300 mt-1 pt-2"><span class="text-xl font-extrabold mt-1 pt-2">Numéro : </span>{farmerData.contact}</p></a>
+            <p class="text-lg text-pacamara-accent dark:text-gray-300 mt-1 pt-2"> <span class="text-xl font-extrabold mt-1 pt-2">Adresse : </span> {farmerData.location}</p>
         </div>
     </div>
 </div>

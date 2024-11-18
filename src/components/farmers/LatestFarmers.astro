@@ -14,8 +14,7 @@ const farmers = (await getCollection('farmer', ({ data }) => {
 <section class="container mx-auto max-w-screen-lg px-7 py-10 mb-10">
     {
         farmers.map((farmer, index) => {
-            console.log("Farmer Data:", farmer.data);  // Débogage
-            return <Farmer farmerData={farmer.data} num={index} />;
+            return <Farmer farmerData={farmer} num={index} />;
         })
     }
 </section>

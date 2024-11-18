@@ -9,4 +9,4 @@ image: ../../assets/agriculteur-1.jpg
 
 ---
 
-John Doe est un agriculteur passionné par la culture durable et les pratiques agricoles respectueuses de l'environnement...
+Vente directe de fruits et légumes de saison.
