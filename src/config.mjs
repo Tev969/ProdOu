@@ -6,7 +6,7 @@ export default {
     latestPosts: 5,
     postsPerPage: 10,
     latestFarmers: 5,
-    farmersPerPage: 10,
+    farmersPerPage: 20,
     url: "https://pacamara-astro-6y7xr.kinsta.page",
     social: {
         'dribbble': false,

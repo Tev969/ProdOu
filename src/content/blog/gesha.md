@@ -1,18 +1,63 @@
 ---
-title: "Et pour vous alors ?"
+title: "Qui sommes-nous ?"
 pubDate: 2023-06-21
-intro: Acheter directement chez les producteurs garantit des produits frais, de saison, et de meilleure qualité, souvent à des prix plus avantageux. Cela permet aux consommateurs de connaître l'origine des aliments et de soutenir les pratiques agricoles durables. En plus, l'expérience est plus authentique et renforce le lien avec le terroir local.
-tag: coffee
+intro: Nous sommes trois élèves de la MFR de Garachon à Lambesc. Mélissa, Lucie et Léa, motivées et passionnées, nous travaillons ensemble pour préparer notre CCF, un projet riche en apprentissages et en découvertes. Découvrez notre démarche et nos valeurs.
+tag: présentation
 author: palmiak
-image: ../../assets/featured-4.jpg
+image: ../../assets/featured-5.png
+---
+
+# Qui sommes-nous ?
+
+Nous sommes **Mélissa, Lucie et Léa**, trois étudiantes de la Maison Familiale Rurale (MFR) de Garachon, située à **Lambesc**, dans les Bouches-du-Rhône. Actuellement en formation, nous avons entrepris un projet dans le cadre de notre **CCF** (Contrôle en Cours de Formation), qui nous permet de développer des compétences tout en mettant en avant nos valeurs.
+
+## Notre parcours
+
+Étudier à la MFR, c’est bien plus qu’un simple parcours scolaire. La pédagogie repose sur l’alternance entre cours et stages, ce qui nous permet d’être immergées dans le monde professionnel et d’apprendre par l’expérience. Cette approche nous motive, car elle est concrète et nous prépare directement aux réalités du terrain.
+
+Notre formation nous pousse à être autonomes, créatives et engagées dans tout ce que nous entreprenons. C’est dans cet esprit que nous avons décidé de mener ce projet, à la fois personnel et collectif.
 
 ---
-Gesha coffee, also known as Geisha coffee, is a remarkable and highly sought-after variety that has taken the coffee world by storm. Originally discovered in the remote Gesha village of Ethiopia, this coffee has gained worldwide recognition for its exceptional quality and unique flavor profile.
 
-Gesha coffee is renowned for its exquisite taste, characterized by floral and tea-like notes. It offers a delicate and complex aroma with hints of jasmine, bergamot, and tropical fruits. The flavor profile is often described as vibrant, clean, and remarkably smooth, with a well-balanced acidity. The coffee's distinct qualities are attributed to the specific terroir of the Gesha region, including the altitude, soil composition, and climate, which contribute to the development of its exceptional flavor profile.
+## Pourquoi ce projet ?
 
-The popularity of Gesha coffee can be traced back to its discovery and subsequent cultivation in Panama's Boquete region. In 2004, a coffee producer named Hacienda La Esmeralda introduced Gesha coffee to the specialty coffee market, stunning coffee enthusiasts and experts with its unparalleled taste. Since then, Gesha coffee has become synonymous with luxury and has been consistently recognized as one of the world's finest coffees.
+Notre **CCF** est bien plus qu’une simple obligation scolaire : c’est une opportunité de mettre en avant nos passions, de travailler en équipe et de relever des défis. Nous avons choisi de construire ce projet car nous souhaitons :
+- **Développer nos compétences professionnelles** : apprendre à gérer un projet de A à Z, organiser notre travail, et communiquer nos idées.
+- **Mettre en valeur nos valeurs** : solidarité, authenticité, et engagement. Nous croyons en une démarche respectueuse des autres et de l’environnement.
+- **Apporter notre pierre à l’édifice** : à notre échelle, nous souhaitons faire une différence, que ce soit en soutenant des causes locales ou en valorisant des initiatives durables.
 
-Due to its limited availability and high demand, Gesha coffee often commands premium prices. The meticulous cultivation and processing methods, coupled with the limited harvest quantities, contribute to its exclusivity. Coffee aficionados eagerly anticipate the annual release of Gesha coffee, ready to indulge in its extraordinary flavors and experience the pinnacle of coffee craftsmanship.
+---
 
-In conclusion, Gesha coffee stands as a testament to the remarkable diversity and quality found in the world of coffee. Its captivating taste, derived from the unique characteristics of the Gesha region, has captivated the palates of coffee lovers worldwide. With its refined flavor profile and luxurious reputation, Gesha coffee remains a truly extraordinary brew that continues to redefine the standards of excellence in the coffee industry.
+## Travailler ensemble : une force
+
+Ce projet est aussi l’occasion pour nous de consolider nos liens et de travailler en équipe. Chacune apporte ses idées, ses compétences et sa personnalité :
+- **Mélissa** est créative et adore tout ce qui touche à la communication et au design.
+- **Lucie** est organisée et veille à ce que chaque détail soit parfait.
+- **Léa** est curieuse et s’investit pleinement pour trouver des solutions innovantes.
+
+C’est en combinant nos forces que nous avançons, et nous apprenons chaque jour un peu plus sur nous-mêmes et sur le travail en groupe.
+
+---
+
+## Une expérience qui nous prépare à l’avenir
+
+Ce projet n’est pas qu’un exercice : il nous aide à nous projeter dans nos futures vies professionnelles. Que ce soit dans l’agriculture, l’artisanat, ou le commerce local, nous espérons contribuer à notre manière à un monde plus équitable et durable.
+
+### Nos valeurs :
+- **Engagement** : nous nous impliquons à 100 % dans tout ce que nous faisons.
+- **Respect** : des autres, de la nature, et de l’environnement.
+- **Solidarité** : travailler ensemble pour un but commun.
+
+> "Ce projet est une étape importante pour nous, un mélange de découverte, de travail et de passion. Nous sommes fières de ce que nous réalisons et impatientes de partager le résultat."
+
+---
+
+## Et ensuite ?
+
+Nous espérons que notre démarche inspirera d’autres élèves ou personnes à s’investir dans des projets qui ont du sens. Ce CCF est une première étape, et nous avons hâte de poursuivre cette aventure, chacune à notre manière, tout en restant fidèles aux valeurs que nous portons.
+
+Merci de nous suivre et de croire en nous !
+
+---
+
+**Tags** : #mfr #projet-étudiant #engagement-local #solidarité #ccf
